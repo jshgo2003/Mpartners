@@ -5,11 +5,45 @@
   <meta charset="utf-8">
 </head>
 <style>
+h1 {
+  font-size:45px;
+  text-align:center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px;
+}
+#one{
+  display:grid;
+  grid-template-columns: 160px 1fr 50px;
+}
+#oneinone {
+  border-right:1px solid gray;
+  width:145px;
+  margin:0;
+  padding:15px;
+  padding-left:10px;
+}
+#one #oneintwo{
+  padding-left:25px;
+}
+#oneintwo{
+  padding-top:11px;
+}
+#oneinthree{
+  border-left:1px solid gray;
+  width:145px;
+  margin:0;
+  padding:15px;
+  padding-left:10px;
+}
 </style>
 <body>
-    <h1>회사소개</h1>
-    <h3>
-      <ol>  <!-- ol다음에 li입히기 -->
+  <h1>Mpartners</h1>
+  <div id="one">
+    <div id="oneinone">
+    <h2>회사소개</h2>
+    <h4>
+      <ol>
        <li><a href="https://jshgo2003.github.io/Mpartners/Mpartners/Homepage/company/greeting/greeting.html">인사말</a></li>
        <li>회사개요</li>
        <li>연혁</li>
@@ -18,29 +52,29 @@
        <li>지적재산권</li>
        <li>파트너사</li>
       </ol>
-    </h3>
-    <h1>사업소개</h1>
-     <h3>
+    </h4>
+    <h2>사업소개</h2>
+     <h4>
       <ol>
        <li>디스플레이</li>
        <li>서비스</li>
       </ol>
-     </h3>
-    <h1>제품소개</h1>
-    <h3>
+    </h4>
+    <h2>제품소개</h2>
+    <h4>
      <ol>
        <li>디스플레이</li>
      </ol>
-    </h3>
-    <h1>서비스소개</h1>
-    <h3>
+   </h4>
+    <h2>서비스소개</h2>
+    <h4>
      <ol>
        <li>유지관리</li>
        <li>컨텐츠</li>
      </ol>
-    </h3>
-    <h1>고객센터</h1>
-    <h3>
+   </h4>
+    <h2>고객센터</h2>
+    <h4>
      <ol>
        <li>공지사항</li>
        <li>자료실</li>
@@ -48,5 +82,13 @@
        <li>찾아오시는 길</li>
        <li>사이트</li>
      </ol>
-    </h3>
+   </h4>
+ </div id="oneinone">
+ <div id="oneintwo">
+ <h2>Empty</h2>
+ </div id="oneintwo">
+ <div id="oneinthree">
+top
+ </div id="oneinthree">
+</div id="one">
 </body>
